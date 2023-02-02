@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN-UP</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background:linear-gradient(to right,rgb(46,38,100),rgb(22,193,161));
+            height: 100vh;
+        }
+        .container{
+            border: 2px solid rgb(76, 129, 226);
+            position: relative;
+            height: 750px;
+            width: 250px;
+            border-radius: 10px;
+            top: 250px;
+            left: 650px;
+            box-shadow: 1px 2px 2px 1px;
+        }
+        .username{
+            position: relative;
+            background: transparent;
+            color: whitesmoke;
+            padding: 10px;
+            position: relative;
+            top: -2px;
+            left: 35px;
+        }
+        .password{
+            position: relative;
+            background: transparent;
+            color: whitesmoke;
+            padding: 10px;
+            position: relative;
+            top: -12px;
+            left: 40px;
+        }
+       .btn{
+        position: relative;
+            background: transparent;
+            color: white;
+            padding: 10px;
+            top: 70px;
+            left: 35px;
+            border: 1px solid white;
+            border-radius: 4px;
+       }
+       ::placeholder{
+        color: beige;
+       }
+       .btnn{
+        position: relative;
+            background: transparent;
+            color: white;
+            padding: 10px;
+            top: 70px;
+            left: 50px;
+            border: 1px solid white;
+            border-radius: 4px;
+            
+       }
+       .text{
+        position: absolute;
+        left: 700px;
+        top: 190px;
+        color: rgb(63, 197, 197);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+       }
+       .btn:hover{
+        background-color: aquamarine;
+       }
+       .btnn:hover{
+        background-color:aquamarine;
+       }
+       .user{
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+       }
+       .pass{
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+    </style>
+</head>
+<body>
+    
+        <h1 class="text"> <u> EXPLORIA</u> </h1>
+    <div class="container">
+        <form action="backend.php">
+            
+         <h5 class="user"> &nbsp; USERNAME:</h5><input type="text" USERNAME placeholder="Enter Your Username" class="username"><br>
+
+         <h5 class="pass"> &nbsp; PASSWORD:</h5><input type="text" PASSWORD placeholder="Enter Your Password" class="password"><br>
+
+         <h5 class="pass"> &nbsp; ADDRESS:</h5><input type="text" PASSWORD placeholder="Enter Your Address" class="password"><br>
+
+         <h5 class="pass"> &nbsp; E-MAIL ID:</h5><input type="text" PASSWORD placeholder="Enter Your Password" class="password"><br>
+
+         <h5 class="pass"> &nbsp; AGE:</h5><input type="text" PASSWORD placeholder="Write Down In Number" class="password"><br>
+
+         <h5 class="pass"> &nbsp; SEX:</h5><input type="text" PASSWORD placeholder="Enter Your Sex" class="password"><br>
+            <button class="btnn">SIGN-UP</button>
+        </form>
+    </div>
+
+</body>
+</html>
